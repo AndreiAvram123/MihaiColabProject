@@ -1,0 +1,256 @@
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+.button_1 {
+  height: 38px;
+  background: #e8491d;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  border-radius: 7px;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header ul {
+  padding: 0;
+  margin: 0;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px; /*top right bottom left*/
+}
+header #branding {
+  float: left;
+}
+header #branding h1 {
+  margin: 0;
+}
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+header .highlight,
+header .current a {
+  color: yellowgreen;
+  font-weight: bold;
+}
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+  text-decoration: none;
+}
+header img {
+  float: right;
+  position: absolute;
+  width: 80px;
+  border-radius: 45%;
+  top: 3px;
+}
+.categories {
+  margin: 70px 0;
+}
+.col-3 {
+  flex-basis: 33%;
+  min-width: 250px;
+  margin-bottom: 10px;
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#showcase {
+  min-height: 400px;
+  background: url("../img/333.jpg") no-repeat 0 -100px;
+  background-size: cover;
+  text-align: center;
+  color: #000000;
+}
+#showcase h1 {
+  margin-top: 10px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p {
+  font-size: 20px;
+}
+
+/* NewsLetter */
+#newsletter {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+  border-top: #e8491d 4px solid;
+}
+#newsletter h1 {
+  text-align: center;
+  color: #cccccc;
+}
+#newsletter h5 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 35px;
+  margin: auto;
+}
+#newsletter form {
+  text-align: center;
+  margin-top: 15px;
+}
+#newsletter input[type="email"] {
+  padding: 10px;
+  height: 30px;
+  width: 250px;
+  border-radius: 7px;
+}
+.categories {
+  background-color: #a1a0a0;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+.anunturi {
+  background-color: #35424a;
+  margin: 0;
+  padding: 10px 10px 20px 10px;
+}
+.un_anunt {
+  border: 5px #e8491d solid;
+  border-radius: 10px;
+  padding: 5px 5px;
+  min-height: 270px;
+  min-width: 320px;
+  background-color: #cccccc;
+  margin-bottom: 20px;
+  margin: 10px auto;
+  width: 70%;
+  text-align: center;
+}
+.un_anunt img {
+  height: 250px;
+  width: 300px;
+  border-radius: 5px;
+  float: left;
+}
+.date {
+  text-align: center;
+}
+.un_anunt p3 {
+  font-size: 30px;
+}
+#btn {
+  border: none;
+  background-color: inherit;
+}
+.date h1 a {
+  text-decoration: none;
+  color: #000000;
+}
+.date h1 a:hover {
+  color: #35424a;
+}
+#cars {
+  border-radius: 5px;
+  width: 150px;
+}
+.heart {
+  color: #eb3333;
+}
+
+/*   Autentificare     */
+
+.mt-5 {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  align-items: center;
+  top: 50px;
+  border: 5px solid #e8491d;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #b5b5b5;
+}
+.footer {
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p {
+  color: #8a8a8a;
+}
+.footer h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1 {
+  flex-basis: 30%;
+}
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+}
+.footer-col-2 img {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3,
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.app-logo {
+  margin: 20px;
+}
+.app-logo img {
+  width: 140px;
+}
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright {
+  text-align: center;
+}
