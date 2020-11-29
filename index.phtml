@@ -142,78 +142,33 @@
       </div>
     </section>
     <div class="anunturi">
-      <div class="un_anunt">
-        <img src="car1.jpg" />
+            <?php
+               $cars = $view->cars;
+               foreach ($cars as $car){
 
-        <div class="date">
-          <h1><a href=" ">Dacia Solenza</a></h1>
-          <p>2005 - 128 000 km - Benzina - 400 cm3</p>
-          <p2>Braila - Romania</p2>
-          <br />
-          <h2>4000 lei</h2>
-          <br />
-          <p3
+            ?>
+                   <div class="un_anunt">
+                       <img src="<?php echo $car->picture ?>" />
+
+                       <div class="date">
+            <h1><a href=" "><?php echo $car->name?></a></h1>
+            <p>2005 - 128 000 km - Benzina - 400 cm3</p>
+            <p2>Braila - Romania</p2>
+            <br />
+            <h2>4000 lei</h2>
+            <br />
+            <p3
             >Adauga la favorite<button
-              id="btn"
-              class="heart fa fa-heart-o"
-            ></button
-          ></p3>
+                        id="btn"
+                        class="heart fa fa-heart-o"
+                ></button
+                ></p3>
         </div>
       </div>
-      <div class="un_anunt">
-        <img src="car2.jpg" />
 
-        <div class="date">
-          <h1><a href=" ">Dacia Solenza</a></h1>
-          <p>2005 - 128 000 km - Benzina - 400 cm3</p>
-          <p2>Braila - Romania</p2>
-          <br />
-          <h2>4000 lei</h2>
-          <br />
-          <p3
-            >Adauga la favorite<button
-              id="btn"
-              class="heart fa fa-heart-o"
-            ></button
-          ></p3>
-        </div>
-      </div>
-      <div class="un_anunt">
-        <img src="car3.jpg" />
-
-        <div class="date">
-          <h1><a href=" ">Dacia Solenza</a></h1>
-          <p>2005 - 128 000 km - Benzina - 400 cm3</p>
-          <p2>Braila - Romania</p2>
-          <br />
-          <h2>4000 lei</h2>
-          <br />
-          <p3
-            >Adauga la favorite<button
-              id="btn"
-              class="heart fa fa-heart-o"
-            ></button
-          ></p3>
-        </div>
-      </div>
-      <div class="un_anunt">
-        <img src="car4.jpg" />
-
-        <div class="date">
-          <h1><a href=" ">Dacia Solenza</a></h1>
-          <p>2005 - 128 000 km - Benzina - 400 cm3</p>
-          <p2>Braila - Romania</p2>
-          <br />
-          <h2>4000 lei</h2>
-          <br />
-          <p3
-            >Adauga la favorite<button
-              id="btn"
-              class="heart fa fa-heart-o"
-            ></button
-          ></p3>
-        </div>
-      </div>
+            <?php
+               }
+            ?>
     </div>
 
     <!----------footer------------>

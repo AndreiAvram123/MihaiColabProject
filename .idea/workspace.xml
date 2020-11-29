@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd90bfa5-4084-4fd9-978c-9607455e6224" name="Default Changelist" comment="" />
+    <list default="true" id="cd90bfa5-4084-4fd9-978c-9607455e6224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/index.phtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1ke7esrrkjM6M6CMA6Eglc0MXKc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -20,9 +28,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$" host="server" port="8081">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,7 +58,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606049301788</updated>
-      <workItem from="1606049302860" duration="1004000" />
+      <workItem from="1606049302860" duration="1927000" />
+      <workItem from="1606051619888" duration="1657000" />
+      <workItem from="1606656374728" duration="3004000" />
+      <workItem from="1606660134139" duration="1735000" />
     </task>
     <servers />
   </component>
@@ -40,10 +69,27 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606049913051">
+    <state x="548" y="304" key="#CLI_Interpreters" timestamp="1606659417397">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state x="548" y="304" key="#CLI_Interpreters/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606659417397" />
+    <state x="788" y="186" key="#PHP" timestamp="1606659419331">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state x="788" y="186" key="#PHP/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606659419331" />
+    <state x="366" y="350" key="#SQL_Dialects" timestamp="1606660861963">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state x="366" y="350" key="#SQL_Dialects/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606660861963" />
+    <state x="548" y="113" width="1071" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606660190157">
       <screen x="0" y="23" width="1920" height="981" />
     </state>
     <state x="560" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.981/1920.23.1920.1057@0.23.1920.981" timestamp="1606049913051" />
+    <state x="548" y="113" width="1071" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606660190157" />
+    <state x="641" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606661044734">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state x="641" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606661044734" />
     <state x="831" y="417" key="Github.ShareDialog" timestamp="1606049316377">
       <screen x="0" y="23" width="1920" height="981" />
     </state>
@@ -52,5 +98,37 @@
       <screen x="0" y="23" width="1920" height="981" />
     </state>
     <state x="867" y="225" width="308" height="577" key="Github.UntrackedFilesDialog/0.23.1920.981/1920.23.1920.1057@0.23.1920.981" timestamp="1606049321726" />
+    <state width="1294" height="265" key="GridCell.Tab.0.bottom" timestamp="1606661749913">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state width="1294" height="265" key="GridCell.Tab.0.bottom/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606661749913" />
+    <state width="1294" height="265" key="GridCell.Tab.0.center" timestamp="1606661749912">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state width="1294" height="265" key="GridCell.Tab.0.center/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606661749912" />
+    <state width="1294" height="265" key="GridCell.Tab.0.left" timestamp="1606661749912">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state width="1294" height="265" key="GridCell.Tab.0.left/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606661749912" />
+    <state width="1294" height="265" key="GridCell.Tab.0.right" timestamp="1606661749913">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state width="1294" height="265" key="GridCell.Tab.0.right/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606661749913" />
+    <state x="595" y="246" key="NewPhpClassDialog" timestamp="1606660902520">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state x="595" y="246" key="NewPhpClassDialog/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606660902520" />
+    <state x="858" y="408" width="323" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1606659005916">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state x="858" y="408" width="323" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606659005916" />
+    <state x="825" y="265" width="702" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1606661805119">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state x="825" y="265" width="702" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.23.1920.1057/0.23.1920.981@0.23.1920.981" timestamp="1606661805119" />
+    <state x="631" y="239" width="670" height="676" key="search.everywhere.popup" timestamp="1606051058637">
+      <screen x="0" y="23" width="1920" height="981" />
+    </state>
+    <state x="631" y="239" width="670" height="676" key="search.everywhere.popup/0.23.1920.981/1920.23.1920.1057@0.23.1920.981" timestamp="1606051058637" />
   </component>
 </project>
